@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Ethan's Racing Game</title>
+    <link rel="icon" href="images/EthanStudiosLogo2.ico">
+	<link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+	
+	<style>
+		.overlay {
+
+			text-align: center;
+			float: center;
+			vertical-align: center;
+			z-index: 1;
+
+
+
+
+
+
+
+			opacity: 0;
+
+			transition: 1.5s;
+		}
+    .test1 {
+    
+    background: rgba(211, 60, 60,0);
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    
+
+    }
+
+    .test2 {
+      position: fixed;
+      background: rgba(211, 60, 60,0);
+      color: rgb(255, 255, 255);
+      padding: 10px 5px; 
+      font-family: arial; 
+      font-size: 15px; 
+      font-weight: bold; 
+      letter-spacing: 0.7px; 
+      line-height: 1em;
+      cursor: pointer; 
+      z-index: 99999;
+      top: 70%; 
+      left: -100%;
+
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px; 
+      transform: rotate(0deg) translateX(0px) translateY(-100%); transform-origin: 100% 0px;
+
+      transition: 2s;
+
+      opacity: 0;
+
+
+    }
+
+    @media screen {
+
+			.image1 {
+				max-width: 90vw;
+        max-height: 90vh;
+
+
+			}
+		
+    }
+	</style>
+
+
+<!--
+	
+function Desktop() {
+window.location.href = 'Desktop.html';
+  
+}
+
+function Mobile() {
+window.location.href = 'Mobile.html';
+  
+}
+	  -->
+	  
+  </head>
+  <body id="body" class="overlay">
+
+
+	<div id="header">
+		<img src="images/ethanstudios.png" width="300" height="100">
+      <!--<ul id="menu">
+        <li><a href="home.html"><button class="glow-on-hover" type="button">Home</button></a></li>
+        <li><a href="game.html"><button class="glow-on-hover" type="button">GameDemo</button></a></li>
+        <!--
+        <li><a href="game.html">GameDemo</a></li>
+        <!--<li><a href="index.html">Contact</a></li>
+      </ul>  -->
+
+      <div style="clear:both"></div>
+
+    </div>  
+
+
+    
+
+
+
+
+   
+   
+    <div id="header2" <p 
+style= "background-color:rgba(255, 255, 255, 0.2);border: 5px dashed #000000 ">
+      <p style="font-family:'Times New Roman';color:white;text-align:center"></p>  
+
+      
+				
+
+
+	  
+	  
+	
+
+      <ul id="menu" <style="text-align:center; display: inline-block;vertical-align: top;">
+	   
+	  <li><button 
+        type="button"  onClick="Desktop()" class="test1"><img src="images/updateethans2d.png" class="image1" width="20%" height="auto"></img></button></li>
+	  
+	  <li><button 
+        type="button"  onClick="Mobile()" class="test1"><img src="images/updateethans2m.png" class="image1" width="20%" height="auto"></img></button></li>
+	  <!--
+          <li><a href="https://play.google.com/store/apps/details?id=com.ethanstudios.ethanracinggame&hl=en_US"><button class="glow-on-hover" type="button">Google Play Store</button></a></li>
+          <li><a href="https://www.microsoft.com/en-gb/p/ethans-racing-game-beta/9pc2jgzg5gwk?"><button class="glow-on-hover" type="button">Microsoft Store</button></a></li>
+ -->
+      </ul>
+
+</p>
+      
+    </div>   
+
+   
+
+  <div id="footer" class="green">
+
+      
+
+      <div style="clear:both"></div>
+
+      
+
+
+      <p style="font-family:'Times New Roman';color:white;text-align:center">All Rights Reserved (c) Ethan Stockton 2017 - 2022</p>
+
+    </div>    
+
+
+    
+    <!--
+
+  THIS CODE IS PROPERTY OF ETHAN STOCKTON
+
+
+  -->
+
+
+
+<script>
+
+test1();
+
+function test1() {
+   
+
+  setTimeout(test2, 1500);
+
+  
+}
+
+
+function test2() {
+  document.getElementById("body").style.opacity = 1 
+
+  setTimeout(test3, 1500);
+
+  
+}
+
+function test3() {
+  document.getElementById("test2").style.left = 0;
+  document.getElementById("test2").style.opacity = 1;
+  
+
+  
+}
+
+
+
+
+function Desktop() {
+window.location.href = 'Desktop.html';
+  
+}
+
+function Mobile() {
+window.location.href = 'Mobile.html';
+  
+}
+
+
+
+</script><!--
+
+  THIS CODE IS PROPERTY OF ETHAN STOCKTON
+
+
+  -->
+
+
+  </body>
+</html>
