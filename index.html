@@ -7,36 +7,9 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-	
-	
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webgl 17-02-2022.json");
-	  
-	  //var gameInstance = UnityLoader.instantiate("gameContainer", "BuildM/webgl 13-02-2022 3 mobile.json");
-    </script>
-  </head>
-  <body id="body">
-  
+	<style>
 
-  <div id="gameContainer" class="image1" style="height: 100%; width: 100%; position: fixed;
-    top: 0;
-    bottom: 0;
-	margin: 0;
-	left: 0;
-	right: 0;">
 
-    </div>
-
-  </body>
-  
-  
-  
-  
-  
-  <body id="body2" >
-  
-  <style>
     .test2 {
       position: fixed;
       background: rgba(211, 60, 60,0);
@@ -60,47 +33,74 @@
 
       opacity: 0;
 
-      
-      
-
-
-
-     
     }
 
-    
-
-    
-
 	</style>
+
+    
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+	
+	
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webgl 17-02-2022.json");
+	  
+	  //var gameInstance = UnityLoader.instantiate("gameContainer", "BuildM/webgl 13-02-2022 3 mobile.json");
+    </script>
+  </head>
+  <body id="body" >
+  
   
   <div id="test2" class= "test2" ><img src="" >
     
         <p><a href="https://play.google.com/store/apps/dev?id=6251672978551429826&hl=en_US"><button 
-        type="button" class="test1"><img src="images/google.png" width="200" height="50"></button></a></p>
+        type="button" class="test1"><img src="images/google.png" width="50" height="50"></button></a></p>
 
         <p><a href="https://www.microsoft.com/en-gb/p/ethans-racing-game-beta/9pc2jgzg5gwk"><button 
-        type="button" class="test1"><img src="images/win.png" width="200" height="50"></button></a></p>
+        type="button" class="test1"><img src="images/win.png" width="50" height="50"></button></a></p>
 
         <p><a href="https://www.instagram.com/ethan.studios/"><button 
-        type="button" class="test1"><img src="images/insta.png" width="200" height="50"></button></a></p>
+        type="button" class="test1"><img src="images/insta.png" width="50" height="50"></button></a></p>
 
         <p><a href="https://www.facebook.com/EthanStudios.Developer/"><button 
-        type="button" class="test1"><img src="images/facebook.png" width="200" height="50"></button></a></p>
+        type="button" class="test1"><img src="images/facebook.png" width="50" height="50"></button></a></p>
 
         <p><a href="https://twitter.com/StudiosEthan"><button 
-        type="button" class="test1"><img src="images/twitter.png" width="200" height="50"></button></a></p>
+        type="button" class="test1"><img src="images/twitter.png" width="50" height="50"></button></a></p>
 
         <p><button 
-        type="button"  onClick="close1()" class="test1"><img src="images/arrow.png" width="50" height="30"></button></p>
-
+        type="button"  onClick="close1()" class="test1"><img src="images/arrow.png" width="30" height="30"></button></p>
+        
+        <!--
+        <li><a href="game.html">GameDemo</a></li>
+        <!--<li><a href="index.html">Contact</a></li>-->
+    
     </div>
   
+  
+  
+  
+  
+  <div id="gameContainer" class="image1" style="height: 100%; width: 100%; position: fixed;
+    top: 0;
+    bottom: 0;
+	margin: 0;
+	left: 0;
+	right: 0;">
 
+    </div>
+	
+	
+	
+	
+	
+	
+	
+	
 	
 <script>
 
 test2();
+
 
 function test2() {
   setTimeout(test3, 1500);
@@ -112,12 +112,22 @@ function test3() {
 }
 
 function close1() {
+
   document.getElementById("test2").style.opacity = 0;
-  document.getElementById("test2").style.transition = 5;
-  document.getElementById("test2").style.left=parseInt(document.getElementById("test2").style.left)-100 +'%'; 
+
+   document.getElementById("test2").style.transition = 5;
+  
+  document.getElementById("test2").style.left=parseInt(document.getElementById("test2").style.left)-100 +'%';
+
 }
 
-</script>
+</script><!--
+
+  THIS CODE IS PROPERTY OF ETHAN STOCKTON
+
+
+  -->
+
 	
   </body>
 </html>
