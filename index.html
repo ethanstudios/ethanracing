@@ -23,7 +23,7 @@
 }
 
     .test2 {
-      position: absolute;
+      position: fixed;
       background: rgba(64, 64, 64, 1);
       color: rgb(64, 64, 64);
       padding: 10px 5px; 
@@ -35,14 +35,14 @@
       cursor: pointer; 
       z-index: 99999;
       top: 20%; 
-	  bottom: 20%; 
+	  bottom: -20%; 
       left: -100%;
 
       border-top-left-radius: 5px;
       border-top-right-radius: 5px; 
 	  border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px; 
-      transform: rotate(0deg) translateX(0px) translateY(-100%); transform-origin: 100% 0px;
+      transform: rotate(0deg) translateX(0px) translateY(0px); transform-origin: 100% 0px;
 
       transition: 2s;
 
