@@ -7,7 +7,36 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	
-	<style>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+	
+	
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webgl 17-02-2022.json");
+	  
+	  //var gameInstance = UnityLoader.instantiate("gameContainer", "BuildM/webgl 13-02-2022 3 mobile.json");
+    </script>
+  </head>
+  <body id="body">
+  
+
+  <div id="gameContainer" class="image1" style="height: 100%; width: 100%; position: fixed;
+    top: 0;
+    bottom: 0;
+	margin: 0;
+	left: 0;
+	right: 0;">
+
+    </div>
+
+  </body>
+  
+  
+  
+  
+  
+  <body id="body" class="overlay">
+  
+  <style>
 		.overlay {
 
 			text-align: center;
@@ -89,31 +118,6 @@
 		
     }
 	</style>
-    
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-	
-	
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webgl 17-02-2022.json");
-	  
-	  //var gameInstance = UnityLoader.instantiate("gameContainer", "BuildM/webgl 13-02-2022 3 mobile.json");
-    </script>
-  </head>
-  <body id="body">
-  
-
-  <div id="gameContainer" class="image1" style="height: 100%; width: 100%; position: fixed;
-    top: 0;
-    bottom: 0;
-	margin: 0;
-	left: 0;
-	right: 0;">
-
-    </div>
-
-  </body>
-  
-  <body id="body" class="overlay">
   
   <div id="test2" class= "test2" ><img src="" >
     
