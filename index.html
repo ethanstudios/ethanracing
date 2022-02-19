@@ -8,12 +8,39 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	
 	<style>
+		.overlay {
 
+			text-align: center;
+			float: center;
+			vertical-align: center;
+			z-index: 1;
+
+
+
+
+
+
+
+			opacity: 0;
+
+			transition: 1.5s;
+		}
+    .test1 {
+    
+    background: rgba(211, 60, 60,0);
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    
+
+    }
 
     .test2 {
       position: fixed;
-      background: rgba(0, 0, 0,1);
-      color: rgb(0, 0, 0);
+      background: rgba(211, 60, 60,0);
+      color: rgb(255, 255, 255);
       padding: 10px 5px; 
       font-family: arial; 
       font-size: 15px; 
@@ -32,13 +59,36 @@
       transition: 2s;
 
       opacity: 0;
+
+      
+      
+
+
+
      
     }
 
+    
 
     
+
+    
+
+    
+
+
+    
+    @media screen {
+
+			.image1 {
+				max-width: 90vw;
+        max-height: 90vh;
+
+
+			}
+		
+    }
 	</style>
-	
     
     <script src="Build/UnityLoader.js"></script>
     <script>
@@ -49,7 +99,7 @@
 	  //var gameInstance = UnityLoader.instantiate("gameContainer", "BuildM/webgl 13-02-2022 3 mobile.json");
     </script>
   </head>
-  <body id="body" >
+  <body id="body" class="overlay">
   
   <div id="test2" class= "test2" ><img src="" >
     
