@@ -8,7 +8,30 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	
 	<style>
+	.test3 {
+      position: fixed;
+      background: rgba(255, 255, 255, 0.2);
+      color: rgb(255, 255, 255);
+      padding: 10px 5px; 
+      font-family: arial; 
+      font-size: 15px; 
+      font-weight: bold; 
+      letter-spacing: 0.7px; 
+      line-height: 1em;
+      cursor: pointer; 
+      z-index: 99999;
+      top: 70%; 
+      left: -100%;
 
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px; 
+      transform: rotate(0deg) translateX(0px) translateY(-100%); transform-origin: 100% 0px;
+
+      transition: 2s;
+
+      opacity: 0;
+
+    }
 
     .test2 {
       position: fixed;
@@ -68,14 +91,14 @@
         type="button" class="test1"><img src="images/twitter.png" width="50" height="50"></button></a></p>
 
 		<ul id="menu" <style="text-align:center; display: inline-block;vertical-align: top;">
-	      <li><button class="glow-on-hover" type="button">W</button></a></li>
+	      <li><button class="test3" type="button">W</button></a></li>
           
       </ul>
 		
 		<ul id="menu" <style="text-align:center; display: inline-block;vertical-align: top;">
-	      <li><button class="glow-on-hover" type="button">A</button></a></li>
-          <li><button class="glow-on-hover" type="button">S</button></a></li>
-		  <li><button class="glow-on-hover" type="button">D</button></a></li>
+	      <li><button class="test3" type="button">A</button></a></li>
+          <li><button class="test3" type="button">S</button></a></li>
+		  <li><button class="test3" type="button">D</button></a></li>
       </ul>
 		
 		
