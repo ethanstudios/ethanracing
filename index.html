@@ -102,8 +102,14 @@
 	
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/541 10webgl.json");
 	  
-	  //var gameInstance = UnityLoader.instantiate("gameContainer", "BuildM/webgl 13-02-2022 3 mobile.json");
-    </script>
+	  
+	 //var gameInstance = UnityLoader.instantiate("gameContainer", "BuildM/webgl 13-02-2022 3 mobile.json");
+  
+  if(window.location.protocol != 'http:') {
+			location.href =   location.href.replace("https://", "http://");
+		}
+
+   </script>
   </head>
 <body id="body" >
   
