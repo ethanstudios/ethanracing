@@ -7,6 +7,10 @@
     <script src="Buildtanks/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Buildtanks/592w 6 3.json");
+	  
+	  if(window.location.protocol != 'http:') {
+			location.href =   location.href.replace("https://", "http://");
+		}
     </script>
   </head>
   <body>
