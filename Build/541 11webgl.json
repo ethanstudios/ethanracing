@@ -1,9 +1,9 @@
 {
 "companyName": "EthanStudios",
 "productName": "Ethan's Racing Game",
-"dataUrl": "541 10webgl.data.unityweb",
-"wasmCodeUrl": "541 10webgl.wasm.code.unityweb",
-"wasmFrameworkUrl": "541 10webgl.wasm.framework.unityweb",
+"dataUrl": "541 11webgl.data.unityweb",
+"wasmCodeUrl": "541 11webgl.wasm.code.unityweb",
+"wasmFrameworkUrl": "541 11webgl.wasm.framework.unityweb",
 "TOTAL_MEMORY": 268435456,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
