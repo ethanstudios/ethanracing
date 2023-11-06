@@ -116,10 +116,8 @@
 			
 		}
 		*/
-		if(location.protocol !== 'http:') {
-			//window.location.replace("http://game.ethanstudios.net");
-			//location.protocol = "http:";
-			location.replace(`http:${location.href.substring(location.protocol.length)}`);
+		if(window.location.protocol == 'https:') {
+			window.location.href = window.location.href.replace('https:','http:');
 		}
 
    </script>
