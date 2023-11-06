@@ -109,8 +109,9 @@
 	  if(window.location.protocol != 'http:') {
 			location.href =   location.href.replace("https://", "http://");
 		}*/	
-		if(location.protocol !== 'http:') {
-			location.replace('https:${location.href.substring(location.protocol.length)}');
+		if(location.protocol !== "http:") {
+			location.replace("http://game.ethanstudios.net");
+			//location.protocol = "http:";
 		}
 
    </script>
